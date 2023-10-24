@@ -1,0 +1,50 @@
+/*seletor global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*seletor pela tag*/
+p{
+    color: #f00;
+}
+
+main{
+    margin-top: 1rem;
+}
+
+/*seletor pela classe*/
+.paragrafo{
+    border: 1px solid cyan;
+    color: #00f;
+    margin-top: 1rem;
+}
+
+/*seletor pelo id*/
+#titulo{
+    color: #0f0;
+    margin-bottom: 1rem;
+}
+
+/* seletor pelo atributo */
+input[type="password"] {
+    font-size: 3rem;
+}
+
+
+.login-form input {
+    font-size: 2rem;
+    color: #f00;
+}
+
+.login-form > input {
+    color: #0f0;
+    width: 10rem;
+}
+
+/* pseudo classes */
+.cadastro-form div:nth-of-type(2) {
+    background-color: #00f;
+}
